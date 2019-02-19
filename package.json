@@ -1,0 +1,13 @@
+{
+  "name": "peanutButter",
+  "version": "0.0.0",
+  "description": "Lightweight testing framework.",
+  "main": "src/index.js",
+  "repository": "https://github.com/makerlonerangers/peanutButter.git",
+  "author": "William Dunk <williamdunk@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
