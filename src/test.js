@@ -1,1 +1,3 @@
-describe('peanutButter Tests', () => {});
+describe('peanutButter Tests', () => {
+  console.log(true);
+});
