@@ -1,4 +1,5 @@
 const it = (description, callback) => {
-  console.log(description);
+  console.group(description);
   callback();
+  console.groupEnd();
 };
