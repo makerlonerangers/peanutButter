@@ -4,6 +4,6 @@ describe('peanutButter Tests', () => {
   });
 
   it('tests toContain', () => {
-    expect([1,2,3]).toContain(2);
+    expect([1 ,2 ,3]).toContain(2);
   });
 });
