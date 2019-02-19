@@ -3,6 +3,7 @@ const describe = (title, callback) => {
   callback();
 };
 
-const it = description => {
+const it = (description, callback) => {
   console.log(description);
+  callback();
 };
