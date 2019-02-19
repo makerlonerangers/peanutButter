@@ -1,3 +1,5 @@
 describe('peanutButter Tests', () => {
-  console.log(true);
+  it('singular test', () => {
+    console.log('it block was called');
+  });
 });
