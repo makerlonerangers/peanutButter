@@ -3,5 +3,3 @@ const matchers = value => ({
     console.log(value == expectation);
   },
 });
-
-const expect = value => matchers(value);
