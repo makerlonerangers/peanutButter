@@ -1,1 +1,3 @@
-hello = 'hello';
+const describe = title => {
+  console.log(title);
+};
