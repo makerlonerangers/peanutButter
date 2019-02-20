@@ -6,6 +6,12 @@ describe('peanutButter Tests', () => {
   it('throw error test', () => {
     expect(() => {
       throw new Error('Fail');
-    }).toThrowError('Fail');
+    }).toThrowError();
+  });
+
+  it('throw error message test', () => {
+    expect(() => {
+      throw new Error('Fail');
+    }).toThrowErrorMessage('Fail');
   });
 });
