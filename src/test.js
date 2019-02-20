@@ -13,5 +13,8 @@ describe('peanutButter Tests', () => {
     expect(() => {
       throw new Error('Fail');
     }).toThrowErrorMessage('Fail');
+    
+  it('tests toContain', () => {
+    expect([1, 2, 3]).toContain(2);
   });
 });
