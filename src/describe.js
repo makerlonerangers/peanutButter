@@ -1,4 +1,5 @@
 const describe = (title, callback) => {
-  console.log(title);
+  console.group(title);
   callback();
+  console.groupEnd();
 };
