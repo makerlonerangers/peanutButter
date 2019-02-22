@@ -22,5 +22,8 @@ const matchers = value => ({
   },
   toContain(expectation) {
     console.log(value.includes(expectation));
-  }
+  },
+  toBeDefined() {
+    console.log(value !== undefined);
+  },
 });
